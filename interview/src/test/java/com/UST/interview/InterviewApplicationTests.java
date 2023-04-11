@@ -1,12 +1,12 @@
-package com.UST.springbootEmployee;
+package com.UST.interview;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootEmployeeApplicationTests {
+class InterviewApplicationTests {
 
-	//@Test
+	@Test
 	void contextLoads() {
 	}
 

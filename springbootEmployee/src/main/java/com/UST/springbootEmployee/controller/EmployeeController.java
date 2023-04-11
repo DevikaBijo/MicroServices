@@ -23,6 +23,7 @@ public class EmployeeController {
     }
     @GetMapping("/emps/{id}")
     public  EmployeeModel getEmployeeModelById(@PathVariable int id){
+
         return employeeservice.getEmployeeModelBy(id);
     }
     @DeleteMapping("/del/{id}")
